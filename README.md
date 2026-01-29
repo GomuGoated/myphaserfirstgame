@@ -1,0 +1,1 @@
+This is my first phaser game. This game is about a bouncing ball which is somewhat like a single player ping pong game without a computer opponent or another player mode. This game can be felt quite stupid, but no problem :)
