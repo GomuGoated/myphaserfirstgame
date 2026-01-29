@@ -1,0 +1,28 @@
+/* Center the game on the page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    font-family: "Calibri", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+/* Container for Phaser game canvas */
+#game-container {
+    border: 2px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Optional: style for score text overlay if you add HTML UI later */
+.score {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+}
